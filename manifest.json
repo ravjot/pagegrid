@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Page Grid",
+  "description": "Manage your windows and tabs",
+  "version": "0.1",
+
+  "permissions": [
+          "tabs"
+        ],
+  "background": {
+      "persistent": false,
+      "scripts": ["background.js"]
+    },
+  "browser_action": {
+    "default_icon": "stone.png",
+    "default_title": "Page Grid",
+    "default_popup": "popup.html"
+  }
+
+}
